@@ -66,10 +66,10 @@ public class PanelG {
                     g.drawImage(biegWLewo, 0 + x, 0, 80 + x, 88, 0, 0 + (i * 88), 80, 88 + (i * 88), null);
                 }
                 if (kier == 2) {
-                    g.drawImage(biegwGore, 0 + x, 0, 80 + x, 88, 0, 0 + (i * 88), 80, 88 + (i * 88), null);
+                    g.drawImage(biegwGore, 0 + x, 0 + y, 88, 80 + y, 0, 0 + (i * 88), 80, 88 + (i * 88), null);
                 }
                 if (kier == 3) {
-                    g.drawImage(biegWDol,  0 + x, 0, 80 + x, 88, 0, 0 + (i * 88), 80, 88 + (i * 88), null);
+                    g.drawImage(biegWDol,  0 + x, 0 + y, 88, 80 + y, 0, 0 + (i * 88), 80, 88 + (i * 88), null);
                 }
             }
         }
